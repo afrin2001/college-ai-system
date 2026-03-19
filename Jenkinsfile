@@ -11,7 +11,7 @@ pipeline {
 
         stage('Start Backend') {
             steps {
-                bat 'start cmd /k C:\\Users\\abdul\\AppData\\Local\\Microsoft\WindowsApps\\python.exe backend\\app.py'
+                bat 'start cmd /k C:\\Users\\abdul\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe backend\\app.py'
             }
         }
 
