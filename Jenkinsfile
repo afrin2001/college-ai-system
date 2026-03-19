@@ -5,13 +5,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'C:\Users\abdul\AppData\Local\Microsoft\WindowsApps\python.exe -m pip install -r requirements.txt'
+                bat 'C:\\Users\\abdul\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe -m pip install -r requirements.txt'
             }
         }
 
         stage('Start Backend') {
             steps {
-                bat 'start cmd /k C:\Users\abdul\AppData\Local\Microsoft\WindowsApps\python.exe backend\\app.py'
+                bat 'start cmd /k C:\\Users\\abdul\\AppData\\Local\\Microsoft\WindowsApps\\python.exe backend\\app.py'
             }
         }
 
